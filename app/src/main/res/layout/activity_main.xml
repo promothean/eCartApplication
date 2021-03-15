@@ -6,12 +6,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!-- Toolbar -->
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolBar"
             android:layout_width="match_parent"
@@ -23,6 +25,7 @@
             app:title="@string/app_name"
             app:titleTextColor="@color/white"/>
 
+        <!-- Fragment Container -->
         <FrameLayout
             android:id="@+id/layoutContainer"
             android:layout_width="match_parent"
@@ -31,9 +34,10 @@
             android:layout_below="@+id/toolBar"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
+        <!-- Bottom Navigation View -->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@id/bottomNavigationView"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:backgroundTint="@color/colorPrimary"
@@ -44,6 +48,7 @@
 
     </RelativeLayout>
 
+    <!-- Drawer Navigation View -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationView"
         android:layout_width="wrap_content"

@@ -5,9 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackgroundFragment"
+    android:background="@color/colorBackground"
     tools:context=".NotificationsActivity">
 
+    <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
@@ -15,61 +16,9 @@
         android:background="@color/colorPrimary"
         app:navigationIcon="@drawable/ic_back"
         app:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"
-        app:title="Notifications"
+        app:title="@string/title_notifications"
         app:titleTextColor="@color/white"/>
 
-    <LinearLayout
-        android:id="@+id/layoutNoNotifications"
-        android:visibility="visible"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp"
-        android:background="@drawable/card_shadow"
-        android:layout_margin="16dp"
-        android:layout_centerInParent="true">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_notification_primary"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="20sp"
-            android:textAlignment="center"
-            android:text="No Notifications!"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="14sp"
-            android:textAlignment="center"
-            android:text="You Have No Notifications Yet."/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="12sp"
-            android:textAlignment="center"
-            android:text="You Will Receive Notifications For Events Here"/>
-
-    </LinearLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerNotifications"
-        android:layout_below="@+id/toolBar"
-        android:visibility="gone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/custom_notification_layout"/>
+    <!-- Design Code -->
 
 </RelativeLayout>

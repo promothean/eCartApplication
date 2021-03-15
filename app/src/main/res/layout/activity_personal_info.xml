@@ -8,166 +8,17 @@
     android:background="@color/colorPrimary"
     tools:context=".loginsignup.PersonalInfoActivity">
 
+    <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:background="@color/colorPrimary"
-        app:title="Login"
+        app:title="@string/title_personal_information"
         app:titleTextColor="@color/colorPrimary"
         app:navigationIcon="@drawable/ic_back"
         app:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"/>
 
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:layout_below="@+id/toolBar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:src="@drawable/logo_login" />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/imgLogo"
-        android:layout_marginTop="30dp"
-        android:background="@color/white" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imgLogo"
-        android:layout_marginStart="25.0dip"
-        android:layout_marginTop="0.0dip"
-        android:layout_marginEnd="25.0dip"
-        android:layout_marginBottom="30.0dip"
-        android:background="@drawable/card_shadow">
-
-        <ScrollView
-            android:id="@+id/scrollView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:layout_margin="10.0dip"
-            android:scrollbars="none">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:id="@+id/signUpLyt"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:text="Personal Informaton"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:textColor="@color/black"/>
-
-                    <EditText
-                        android:id="@+id/edtName"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10.0dip"
-                        android:hint="User Name"
-                        android:inputType="textPersonName"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        app:backgroundTint="@color/black" />
-
-                    <EditText
-                        android:id="@+id/edtEmail"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10.0dip"
-                        android:hint="Email Address"
-                        android:inputType="textEmailAddress"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        app:backgroundTint="@color/black"/>
-
-                    <EditText
-                        android:id="@+id/edtMobileNumber"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10.0dip"
-                        android:hint="Mobile Number"
-                        android:inputType="phone"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        app:backgroundTint="@color/black"/>
-
-                    <EditText
-                        android:id="@+id/edtPassword"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10.0dip"
-                        android:hint="Password"
-                        android:inputType="textPassword"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        app:backgroundTint="@color/black"/>
-
-                    <EditText
-                        android:id="@+id/edtConfirmPassword"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10.0dip"
-                        android:hint="Confirm Password"
-                        android:inputType="textPassword"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        app:backgroundTint="@color/black"/>
-
-                    <EditText
-                        android:id="@+id/edtRefer"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10.0dip"
-                        android:hint="Refer Code"
-                        android:inputType="text"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        app:backgroundTint="@color/black"/>
-
-                    <LinearLayout
-                        android:id="@+id/layoutPrivacy"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkPrivacy"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
-
-                        <TextView
-                            android:id="@+id/txtPrivacy"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:padding="5.0dip"
-                            android:text="I have read and agree to the Privacy Policy and Terms &amp; Conditions"
-                            android:textColor="@color/colorDarkGray"/>
-
-                    </LinearLayout>
-
-                    <Button
-                        android:id="@+id/btnSubmit"
-                        style="@style/Widget.AppCompat.Button.Colored"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:text="Submit"
-                        android:textColor="@color/white"/>
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </ScrollView>
-
-    </LinearLayout>
+    <!-- Design Code -->
 
 </RelativeLayout>
