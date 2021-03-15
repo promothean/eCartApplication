@@ -13,4 +13,10 @@
     <string name="title_add_address">Add Address</string>
     <string name="title_addresses">Addresses</string>
     <string name="title_cart">Cart</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="title_contact_us">Contact Us</string>
+    <string name="title_enter_otp">Enter OTP</string>
+    <string name="title_error">Error</string>
+    <string name="title_forget_password">Forget Password</string>
+    <string name="title_login">Login</string>
 </resources>
