@@ -22,4 +22,6 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_personal_information">Personal Information</string>
     <string name="title_reset_password">Reset Password</string>
+    <string name="title_success">Success</string>
+    <string name="title_verify_mobile_phone">Verify Mobile Phone</string>
 </resources>

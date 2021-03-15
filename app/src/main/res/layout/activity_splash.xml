@@ -7,10 +7,11 @@
     tools:context=".SplashActivity"
     android:background="@color/colorPrimary">
 
+    <!-- Design Code -->
     <ImageView
         android:background="@drawable/doodles"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:contentDescription="@string/image_splash_background"/>
 
     <ImageView

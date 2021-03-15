@@ -5,60 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackgroundFragment"
+    android:background="@color/colorBackground"
     tools:context=".orders.OrdersFragment">
 
-    <LinearLayout
-        android:id="@+id/layoutNoOrder"
-        android:visibility="visible"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp"
-        android:background="@drawable/card_shadow"
-        android:layout_margin="16dp"
-        android:layout_centerInParent="true">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_no_order"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="20sp"
-            android:textAlignment="center"
-            android:text="No Order Found!"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="14sp"
-            android:textAlignment="center"
-            android:text="You Have Not Placed Any Order Yet."/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="12sp"
-            android:textAlignment="center"
-            android:text="Try Adding Some Products In Your Cart &amp; Place An Order."/>
-
-    </LinearLayout>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerOrders"
-        android:visibility="gone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/custom_order_layout"/>
+    <!-- Design Code -->
 
 </RelativeLayout>

@@ -5,9 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackgroundFragment"
+    android:background="@color/colorBackground"
     tools:context=".successerror.SuccessActivity">
 
+    <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
@@ -15,40 +16,7 @@
         android:background="@color/colorPrimary"
         app:navigationIcon="@drawable/ic_back"
         app:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"
-        app:title="Success"
+        app:title="@string/title_success"
         app:titleTextColor="@color/white"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp"
-        android:background="@drawable/card_shadow"
-        android:layout_margin="16dp"
-        android:layout_centerInParent="true">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_success_primary"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="20sp"
-            android:textAlignment="center"
-            android:text="Success!"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorText"
-            android:textSize="14sp"
-            android:textAlignment="center"
-            android:text="Transaction Added Successfully."/>
-
-    </LinearLayout>
 
 </RelativeLayout>
