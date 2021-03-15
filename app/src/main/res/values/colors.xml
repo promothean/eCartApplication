@@ -11,7 +11,7 @@
     <color name="colorLightGray">#FFDBDADA</color>
     <color name="colorDarkGray">#FF313030</color>
     <color name="colorDarkerGray">#FF8C8C8C</color>
-    <color name="colorBackgroundFragment">#FFECECEF</color>
+    <color name="colorBackground">#FFECECEF</color>
     <color name="colorOrderDelivered">#FF0470C3</color>
     <color name="colorOrderCanceled">#FFDE4B3B</color>
     <color name="colorOrderReturned">#FF9C3327</color>

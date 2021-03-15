@@ -7,4 +7,10 @@
     <string name="intro_text_a">Look for things around you</string>
     <string name="intro_text_b">Get the best deals &amp; Coupons</string>
     <string name="intro_text_c">Find great offers while your discover</string>
+    <string name="image_splash_background">Image Splash Background</string>
+    <string name="image_logo">Image Logo</string>
+    <string name="title_about_us">About Us</string>
+    <string name="title_add_address">Add Address</string>
+    <string name="title_addresses">Addresses</string>
+    <string name="title_cart">Cart</string>
 </resources>

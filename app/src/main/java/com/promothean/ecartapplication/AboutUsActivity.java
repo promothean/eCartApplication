@@ -5,7 +5,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 public class AboutUsActivity extends AppCompatActivity {
     private static final String TAG = "AboutUsActivity";

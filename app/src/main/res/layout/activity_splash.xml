@@ -10,12 +10,14 @@
     <ImageView
         android:background="@drawable/doodles"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"/>
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/image_splash_background"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/logo_login"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/image_logo"/>
 
 </RelativeLayout>
