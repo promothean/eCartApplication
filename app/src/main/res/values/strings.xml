@@ -24,4 +24,8 @@
     <string name="title_reset_password">Reset Password</string>
     <string name="title_success">Success</string>
     <string name="title_verify_mobile_phone">Verify Mobile Phone</string>
+    <string name="image_user">Image User</string>
+    <string name="muhammad_inzmam">Muhammad Inzmam</string>
+    <string name="_92_3045068602">+92 3045068602</string>
+    <string name="wallet_balance_0_00">Wallet Balance : $0.00</string>
 </resources>
