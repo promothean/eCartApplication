@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Select Country</item>
+        <item>Country 1</item>
+    </string-array>
+    <string-array name="states">
+        <item>Select State</item>
+        <item>State 1</item>
+        <item>State 2</item>
+        <item>State 3</item>
+        <item>State 4</item>
+    </string-array>
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>City 1</item>
+        <item>City 2</item>
+        <item>City 3</item>
+    </string-array>
+    <string-array name="areas">
+        <item>Select Area</item>
+        <item>Area 1</item>
+        <item>Area 2</item>
+        <item>Area 3</item>
+    </string-array>
+</resources>

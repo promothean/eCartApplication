@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF0470C3</color>
+    <color name="colorAccentDark">#FF0470C3</color>
+    <color name="colorPrimary">#FF0470C3</color>
+    <color name="colorPrimaryDark">#FF0470C3</color>
+    <color name="colorPrimaryLight">#FFDEF1FF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorText">#FF191919</color>
+    <color name="colorLightGray">#FFDBDADA</color>
+    <color name="colorDarkGray">#FF313030</color>
+    <color name="colorDarkerGray">#FF8C8C8C</color>
+    <color name="colorBackgroundFragment">#FFECECEF</color>
+    <color name="colorOrderDelivered">#FF0470C3</color>
+    <color name="colorOrderCanceled">#FFDE4B3B</color>
+    <color name="colorOrderReturned">#FF9C3327</color>
+    <color name="colorOrderShipped">#FF4CAF50</color>
+    <color name="colorOrderInProcess">#FF407326</color>
+    <color name="colorSmallButton">#FFD9EEFE</color>
+</resources>

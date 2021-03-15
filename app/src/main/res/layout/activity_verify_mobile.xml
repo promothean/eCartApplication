@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".loginsignup.VerifyMobileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Login"
+        app:titleTextColor="@color/colorPrimary"
+        app:navigationIcon="@drawable/ic_back"
+        app:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"/>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/toolBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo_login" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="30dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginStart="25.0dip"
+        android:layout_marginTop="0.0dip"
+        android:layout_marginEnd="25.0dip"
+        android:layout_marginBottom="30.0dip"
+        android:background="@drawable/card_shadow">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10.0dip"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layoutVerify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10.0dip"
+                        android:text="Verify Your Mobile"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/black"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/country_list_bg"
+                        android:orientation="horizontal"
+                        android:padding="1dp"
+                        android:weightSum="15">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/edtCode"
+                            app:ccpDialog_showFastScroller="true"
+                            app:ccp_showArrow="false"
+                            app:ccp_showNameCode="false"
+                            app:ccp_textSize="13sp"
+                            app:ccp_defaultPhoneCode="92"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="10"/>
+
+                        <EditText
+                            android:id="@+id/edtMobVerify"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="5.0"
+                            android:background="@android:color/transparent"
+                            android:hint="Mobile Number"
+                            android:inputType="phone"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dip"
+                        android:gravity="center"
+                        android:text="We will send you an OTP on this mobile number to verify."
+                        android:textColor="@color/colorText"/>
+
+                    <Button
+                        android:id="@+id/btnSendCode"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Send Code"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

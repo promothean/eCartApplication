@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.promothean.ecartapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ECartApplication">
+        <activity android:name="com.promothean.ecartapplication.SingleProductActivity"/>
+        <activity android:name="com.promothean.ecartapplication.loginsignup.ResetPasswordActivity" />
+        <activity android:name="com.promothean.ecartapplication.loginsignup.ForgetPasswordActivity" />
+        <activity android:name="com.promothean.ecartapplication.successerror.ErrorActivity" />
+        <activity android:name="com.promothean.ecartapplication.successerror.SuccessActivity" />
+        <activity android:name="com.promothean.ecartapplication.proceedorder.ProceedOrderActivity" />
+        <activity android:name="com.promothean.ecartapplication.AboutUsActivity" />
+        <activity android:name="com.promothean.ecartapplication.ContactUsActivity" />
+        <activity android:name="com.promothean.ecartapplication.ReferandEarnActivity" />
+        <activity android:name="com.promothean.ecartapplication.addresses.AddNewAddressActivity" />
+        <activity android:name="com.promothean.ecartapplication.addresses.AddressesActivity" />
+        <activity android:name="com.promothean.ecartapplication.loginsignup.ChangePasswordActivity" />
+        <activity android:name="com.promothean.ecartapplication.ProfileActivity" />
+        <activity android:name="com.promothean.ecartapplication.TransactionHistoryActivity" />
+        <activity android:name="com.promothean.ecartapplication.WalletHistoryActivity" />
+        <activity android:name="com.promothean.ecartapplication.NotificationsActivity" />
+        <activity android:name="com.promothean.ecartapplication.CartActivity" />
+        <activity android:name="com.promothean.ecartapplication.loginsignup.PersonalInfoActivity" />
+        <activity android:name="com.promothean.ecartapplication.loginsignup.EnterOTPActivity" />
+        <activity android:name="com.promothean.ecartapplication.loginsignup.VerifyMobileActivity" />
+        <activity android:name="com.promothean.ecartapplication.loginsignup.LoginActivity" />
+        <activity android:name="com.promothean.ecartapplication.IntroActivity" />
+        <activity android:name="com.promothean.ecartapplication.MainActivity" />
+        <activity
+            android:name="com.promothean.ecartapplication.SplashActivity"
+            android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

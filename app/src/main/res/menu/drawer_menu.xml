@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="Home"
+        android:checked="true"/>
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_menu_cart"
+        android:title="Cart" />
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/ic_menu_notifications"
+        android:title="Notifications" />
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_your_orders"
+            android:icon="@drawable/ic_menu_your_order"
+            android:title="Your Orders" />
+        <item
+            android:id="@+id/menu_wallet_history"
+            android:icon="@drawable/ic_menu_wallet_history"
+            android:title="Wallet History" />
+        <item
+            android:id="@+id/menu_transaction_history"
+            android:icon="@drawable/ic_menu_transaction_history"
+            android:title="Transaction History" />
+    </group>
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_change_password"
+            android:icon="@drawable/ic_menu_your_order"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/menu_manage_addresses"
+            android:icon="@drawable/ic_menu_wallet_history"
+            android:title="Manage Addresses" />
+        <item
+            android:id="@+id/menu_refer_and_earn"
+            android:icon="@drawable/ic_menu_transaction_history"
+            android:title="Refer &amp; Earn" />
+    </group>
+    <group
+        android:id="@+id/group_3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_contact_us"
+            android:icon="@drawable/ic_menu_contact_us"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/menu_about_us"
+            android:icon="@drawable/ic_menu_about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/menu_rate_us"
+            android:icon="@drawable/ic_menu_rate_us"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/menu_share_app"
+            android:icon="@drawable/ic_menu_share_app"
+            android:title="Share App" />
+        <item
+            android:id="@+id/menu_faq"
+            android:icon="@drawable/ic_menu_faq"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/menu_terms_and_conditions"
+            android:icon="@drawable/ic_menu_terms_and_conditions"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/menu_privacy_policy"
+            android:icon="@drawable/ic_menu_privacy_policy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+</menu>
